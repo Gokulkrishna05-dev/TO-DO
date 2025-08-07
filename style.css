@@ -33,7 +33,7 @@ body{
 /* Outer Div */
 .outer_div{
     /* border: solid thick black; */
-    max-width: 500px;
+    max-width: 400px;
     background-color: #B17F59;
     padding: 10px;
     border-radius: 10px;
