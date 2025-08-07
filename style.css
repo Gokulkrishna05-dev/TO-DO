@@ -22,18 +22,18 @@ body{
 }
 .outer_div{
     /* border: solid thick black; */
-    max-width: 600px;
+    max-width: 500px;
     background-color: #B17F59;
     padding: 10px;
     border-radius: 10px;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 }
 /* Outer Div */
 .outer_div{
     /* border: solid thick black; */
-    max-width: 600px;
+    max-width: 500px;
     background-color: #B17F59;
     padding: 10px;
     border-radius: 10px;
