@@ -22,7 +22,7 @@ body{
 }
 .outer_div{
     /* border: solid thick black; */
-    max-width: 400px;
+    max-width: 600px;
     background-color: #B17F59;
     padding: 10px;
     border-radius: 10px;
@@ -33,7 +33,7 @@ body{
 /* Outer Div */
 .outer_div{
     /* border: solid thick black; */
-    max-width: 400px;
+    max-width: 600px;
     background-color: #B17F59;
     padding: 10px;
     border-radius: 10px;
