@@ -11,7 +11,7 @@ body{
     background-color: #FFE3BB;
     color: whitesmoke;
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
     body{
     display: flex;
     align-items: center;
