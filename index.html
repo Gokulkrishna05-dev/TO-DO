@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="outer_div">
+        <h1 class="head">
+            To Do List
+        </h1>
+        <div class="track">
+            <span id="track-text">Keep It Up🎯</span>
+            <span class="circle">
+                <span id="first">0</span>
+                <span id="slash">/</span>
+                <span id="last">0</span>
+            </span>
+        </div>
+        <div class="input_div">
+            <input type="text" id="input">
+            <button id="btn" onclick="addtodo()"><i class="fa-solid fa-plus"></i></button>
+            <img src="images/Checklist-pana.png" alt="" width="250px" id="img">
+        </div>
+        <div id="div"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

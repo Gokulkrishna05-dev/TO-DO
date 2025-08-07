@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom,#FFE3BB,#EAD8A4);
+    color: whitesmoke;
+}
+/* Outer Div */
+.outer_div{
+    /* border: solid thick black; */
+    max-width: 400px;
+    margin: auto;
+    background-color: #B17F59;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+/* Outer Div */
+
+/* Track */
+.head{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.track{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    border: solid 3px #F0F1C5;
+    border-radius: 20px;
+    height: 90px;
+    padding: 10px;
+}
+#track-text{
+    font-size: 1.5rem;
+    text-indent: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width:330px) {
+    #track-text{
+    font-size: 1.2rem;
+    text-indent: 05px;
+    font-weight: bold;
+}
+}
+.circle{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-right: 20px;
+    background-color: #F8B259;
+}
+/* Track */
+
+/* Input Div */
+.input_div{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+}
+#input{
+  background: linear-gradient(to right,#FFECDB,white);
+    margin-left: 3px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 80%;
+}
+/* Plus Button */
+.fa-solid{
+    font-size: 1rem;
+}
+#btn{
+    /* border: none; */
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: #A86523;
+    border: beige solid 2px;
+    cursor: pointer;
+
+}
+/* Plus Button */
+/* Input Div */
+
+/* Tasks Div */
+#div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+}
+/* Content Div */
+.content{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to bottom,#FBF5DD,#ECDFCC);
+    margin-top: 10px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    align-items: center;
+    color: #A16D28;
+}
+.text{
+    flex: 1;
+    margin-left: 5px;
+    /* text-wrap: wrap; */
+    overflow: auto;
+    overflow-wrap: break-word;
+    text-overflow: clip;
+    font-weight:bold;
+    margin-right: 2px;
+}
+.tick{
+    margin-left: 10px;
+    /* border: solid thin black; */
+    background-color: #F2C078;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+     font-size: 1.3rem;
+     cursor: pointer;
+}
+#tt{
+     font-size: 1.3rem;
+     color: white;
+     font-weight: bolder;
+
+}
+.remove{
+    margin-right: 10px;
+}
+.edit{
+    margin-right:10px;
+}
+
+#trash{
+    font-size: 1.3rem;
+    color: maroon;
+    /* border: solid thin #000000; */
+    background-color: #F2C078;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+#edit_font{
+    font-size: 1.3rem;
+     /* border: solid thin black; */
+    background-color: #8AA624;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    color: #DBE4C9;
+    cursor: pointer;
+}
+/* Content Div */
+/* Tasks Div */
