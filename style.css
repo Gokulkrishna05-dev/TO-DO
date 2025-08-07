@@ -6,19 +6,37 @@
 body{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100vh;
-    background: linear-gradient(to bottom,#FFE3BB,#EAD8A4);
+    background-color: #FFE3BB;
     color: whitesmoke;
+}
+@media screen and (max-width:450px) {
+    body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: #FFE3BB;
+    color: whitesmoke;
+}
+.outer_div{
+    /* border: solid thick black; */
+    max-width: 400px;
+    background-color: #B17F59;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
 }
 /* Outer Div */
 .outer_div{
     /* border: solid thick black; */
     max-width: 400px;
-    margin: auto;
     background-color: #B17F59;
     padding: 10px;
     border-radius: 10px;
-    
 }
 /* Outer Div */
 
